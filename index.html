@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/stylesheets/template.css" />
+    <link rel="shortcut icon" href="/static/images/wwu-logo.png" type="image/x-icon">
+    {% block header %}
+        
+    {% endblock %}
+</head>
+<body>
+    <div class="header-nav">
+        <a href="https://www.wwu.edu"><img src="/static/images/thumbnail_Outlook-Logo, comp.png" alt="Western Washington University logo with slogan: make waves."></a>
+        <ul class = "nav-links">
+            <a href="/"><li>Home</li></a>
+            <a href="about"><li>About</li></a>
+            <a href="upload"><li>Rates</li></a>
+            <a href="contact"><li>Contact</li></a>
+            
+        </ul>
+    </div>
+    <div class="content">
+        {% block content %}
+        
+        {% endblock %}
+    </div>
+    <div class="footer">
+        <a href="https://github.com/Teaching-Accessibility/course-project-disability-access-navigation-guide">
+            <img src="/static/images/github-mark-white.png" alt="Github logo with transparent background" >
+        </a>
+        Celtic Storm Charter Fishing
+    </div>
+</body>
+</html>
